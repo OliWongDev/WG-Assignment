@@ -1,8 +1,8 @@
-export class LoginPage{
+export class LoginPage  {
 
-  username_textbox = ':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input'
-  password_textbox = ':nth-child(3) > .oxd-input-group > :nth-child(2) > .oxd-input'
-  login_button = '.oxd-button'
+  username_textbox = '[data-test="username"]'
+  password_textbox = '[data-test="password"]'
+  login_button = '[data-test="login-button"]'
 
   enterUsername(username) {
 
